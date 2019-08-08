@@ -36,3 +36,11 @@ Organização do código;
 Componentização das páginas;
 Interface organizada e amigável;
 Uso adequado do css (ou alguma biblioteca).
+
+__TESTANDO O PROJETO__
+
+Teste em Modo Desenvolvimento: Abra na linha de comando e execute.  
+
+```javascript
+npm start
+```
