@@ -41,6 +41,13 @@ __TESTANDO O PROJETO__
 
 Teste em Modo Desenvolvimento: Abra na linha de comando e execute.  
 
-```javascript
+```bash
 npm start
+```
+
+Abre navegador http://localhost:3000
+
+```bash
+usuário = admin  
+senha = admin
 ```

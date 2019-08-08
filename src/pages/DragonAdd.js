@@ -91,7 +91,7 @@ class DragonAdd extends Component {
                         Use virgula para dividir historias
                       </Form.Text>
                     </Form.Group>
-                    <Button variant="dark" >Cancelar</Button> &nbsp;
+                    <Link to="/list"><Button variant="light" >Cancelar</Button></Link> &nbsp;
                     <Button variant="danger" onClick={()=>{this.addDragon()}} >Adicionar</Button>
 
                   </Form>
