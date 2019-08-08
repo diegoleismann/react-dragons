@@ -1,0 +1,62 @@
+html, body{
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.bg-danger .navbar-brand{
+  color:#fff;
+}
+
+.navbar-dark button.navbar-toggler{
+  padding: 0px;
+  border:0;
+}
+
+.navbar-dark button.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath style='stroke:%23fff;' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-dark button.navbar-toggler:focus{
+  border:0;
+  outline: 0;
+}
+.App, .Router, #root{
+  height: 100%;
+}
+
+.ViewLogin{
+  padding: 1px ;
+  background-image: url('/fundo-login.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+.form-login{
+  width: 300px;
+  margin: 150px auto 20px;
+}
+.view{
+  background-color: #fbb;
+  min-height: 100%;
+}
+.view a:hover{
+  text-decoration: none;
+}
+.view a .dragon , .view a:hover .dragon .card-body {
+  color:#d34;
+  text-decoration: none;
+}
+.view .dragon .card-body{
+  padding: 10px 15px;
+}
+.ViewDragonList a:hover .dragon {
+  opacity: 0.85;
+}
+.dragon-List{
+
+}
+
+.dragon{
+  margin-top: 5px;
+}
